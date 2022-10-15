@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+    height: 200px;
+}
+
+body {
+    background-color: crimson;
+    color: aquamarine;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#supertitel, #sexyabschnitt {
+    font-family: Corbel, Arial, Helvetica, sans-serif;
+}
+
+.redtext {
+    color: blue;
+    text-decoration: line-through;
+    text-shadow: 2px 2px lightpink;
+}
+
+.comicsans {
+    font-family: 'Comic Sans', 'Courier New', monospace;
+}
+
+.speed {
+    font-family: 'Impact Condensed', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.blinker {
+    animation: blinker 0.2s infinite;
+}
+
+@keyframes blinker {
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: green;
+    }
+    50.1% {
+        background-color: white;
+    }
+    100% {
+        background-color: white;
+    }
+}
+
+@font-face {
+    font-family: Impact;
+    src: url(impact.ttf);
+}
